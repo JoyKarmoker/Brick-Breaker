@@ -8,10 +8,12 @@ public class Block : MonoBehaviour
 
     //Cached Reference
     Level level;
+  
 
     private void Start()
     {
         level = FindObjectOfType<Level>();
+       
         level.CountBreakableBlocks();
     }
 
@@ -20,5 +22,7 @@ public class Block : MonoBehaviour
         AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
         Destroy(gameObject);
         level.BlockDestroyed();
+        FindObjectOfType<GameStatus>().AddToScore();
+        
     }
 }
