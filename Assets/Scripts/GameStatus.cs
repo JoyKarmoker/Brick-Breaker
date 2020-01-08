@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class GameStatus : MonoBehaviour
 {
     //config params
-   [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 0.7f;
+    [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 0.7f;
     [SerializeField] int pointsPerBlockDestroyed = 83;
-    [SerializeField] Text scoreText;
+    [SerializeField] TextMeshProUGUI scoreText;
 
     [SerializeField] int currentScore;
 
