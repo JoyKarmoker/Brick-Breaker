@@ -5360,6 +5360,11 @@ PrefabInstance:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 280579283}
+    - target: {fileID: 564549499012321458, guid: b7e6df1c1520f6246858975edea25c61,
+        type: 3}
+      propertyPath: randomFactor
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 564549499012321461, guid: b7e6df1c1520f6246858975edea25c61,
         type: 3}
       propertyPath: m_Name
@@ -5972,21 +5977,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3755681528502455320, guid: 8b7894b981c93014cb2d83411bc7a7ac,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3755681528502455320, guid: 8b7894b981c93014cb2d83411bc7a7ac,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3755681528502455320, guid: 8b7894b981c93014cb2d83411bc7a7ac,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3755681529098946228, guid: 8b7894b981c93014cb2d83411bc7a7ac,
         type: 3}
       propertyPath: m_LocalPosition.x

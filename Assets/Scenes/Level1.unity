@@ -6293,16 +6293,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Play Space
       objectReference: {fileID: 0}
-    - target: {fileID: 3755681529576103554, guid: 8b7894b981c93014cb2d83411bc7a7ac,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 3755681529576103554, guid: 8b7894b981c93014cb2d83411bc7a7ac,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.28
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b7894b981c93014cb2d83411bc7a7ac, type: 3}
 --- !u!1001 &6810447872241702486
