@@ -11,7 +11,7 @@ public class Ball : MonoBehaviour
     [SerializeField] float yPush = 14f;
     [SerializeField] AudioClip[] ballSounds;
     [SerializeField] float randomFactorEnd = 0.5f;
-    [SerializeField] float randomFactorStart = -0.5f;
+    [SerializeField] float randomFactorStart =-0.5f;
 
     //State
     Vector2 paddleToBallVector;
