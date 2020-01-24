@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 5425291006881876838}
   - component: {fileID: 5425291006881876839}
   m_Layer: 0
-  m_Name: Game Status
+  m_Name: Game Session
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eae671a55bed214ab9a7d250153f425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSpeed: 0.7
+  gameSpeed: 1.1
   pointsPerBlockDestroyed: 83
   scoreText: {fileID: 1184677427}
   currentScore: 0
